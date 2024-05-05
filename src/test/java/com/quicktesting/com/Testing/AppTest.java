@@ -14,7 +14,6 @@ public class AppTest
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.koimoi.com");
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		d.close();
 		}
 
 }
