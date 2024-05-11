@@ -12,7 +12,7 @@ public class AppTest
 {
 	public static void main(String[] args) {
 		WebDriver d=new ChromeDriver();
-		d.get("https://www.koimoi.com");
+		d.get("https://www.google.com");
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		}
 
